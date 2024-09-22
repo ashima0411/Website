@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+ main{ 
+    background-color: 	rgba(175,214,155);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:1px;
+   
+}
+.logo {         /*logo*/
+    display: flex;
+    height: 45px;
+    width: 100px;
+    margin-top: -49px;
+    margin-right: 30px;
+    margin-left: -18px;
+}
+
+.logo img {
+   
+    margin : 0px 10px 0px 0px;
+    aspect-ratio:auto;
+}
+
+.logo span {
+    font-size: 20px;
+    color: #666;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   
+}
+ul li {
+    display: inline-block;
+    position: relative;
+   
+}
+
+ul li a {
+    text-decoration:solid;
+    color: #ffffff;
+    padding: 10px 20px;
+    display: block;
+    background-color:#71926b;
+    ;
+}
+
+ul li a:hover {
+    background-color: #ddd;
+    
+    
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.search-bar {         /*search*/
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: -35px; 
+}
+
+.search-bar img {
+    width: 25px; 
+    height: 24px;
+    margin:-700px -400px 23px 951px;
+}
+.search-container button img {    /*search part*/
+    width: 25px;
+    height: 25px;
+    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: 	rgba(175,214,155);
+}
+.user-profile {                   /*user profile*/
+    display:inline-block;
+    align-items: right;
+
+}
+.user-profile span {
+    margin-left: 300px;
+    margin-top: 35px;
+    margin-right:4px;
+}
+
+.user-profile .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+}
+
+.user-options a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.user-options a .icon {           /*icon*/
+    margin-left: -20px;
+}
+
+        .icon {
+            margin-right: 5px;
+        }
+
+        .cart-count, .wishlist-count {           /*cart/wishlist*/
+            background-color: white;
+            color: rgb(0, 0, 0);
+            border-radius: 50%;
+            padding: 2px 8px;
+            font-size: 12px;
+            position: relative;
+            top: -10px;
+            left: -5px;
+        }
+
+        .cart-items, .wishlist-items {
+            margin-top: 20px;
+        }
+
+        .cart-item, .wishlist-item {
+            padding: 5px;
+            margin: 5px 0;
+            background-color: #f0f0f0;
+        }
+ul {
+    background-color:	#71926b;
+    padding: 8px 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+ ul li   {
+    margin: 0 20px;
+}
+
+ ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration:double;
+    font-size: 19px;
+    
+}
+.dropdown-content {                  /*dropdown*/
+    display: none;
+    position: absolute;
+    background-color: #f4f4f4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+   
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+ul li:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-content .sub-category {
+    position: relative;
+}
+
+.dropdown-content .sub-category:hover .sub-dropdown {
+    display: block;
+}
+
+.sub-dropdown {         /*subdrop-down*/
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: 0;
+    min-width: 160px;
+    background-color: #f4f4f4;
+    box-shadow: (0px 8px 16px rgb(255, 255, 255));
+}
+.slider-container {         /*slider*/
+    max-width: 1500px;
+    position: relative;
+    margin: auto;
+}
+
+.slides {
+    display:flex;
+}
+
+.slides img {
+    width: 300px;
+    height: 400px;
+    margin:0px 6px 0px 0px;
+    border-radius: 8px;
+    object-fit:cover;
+}
+
+.prev, .next {           /*prev/next opt*/
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(255, 249, 249, 0.8);
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {             /*slider fade*/
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.header-container {
+    text-align: center; 
+    position: relative; 
+    margin: 20px 30px; 
+}
+
+.header-container h2 {
+    font-size: 30px; 
+    color: #00430a; 
+    font-family:'Times New Roman', Times, serif; 
+    position: relative;
+    z-index: 1; 
+    display: inline-block; 
+    padding: 0 10px; 
+}
+.header-container:before,
+.header-container:after {
+    content: '';
+    position: absolute;
+    top: 50%; 
+    width: 35%;  
+    background-color: #00430a;
+    z-index: 0; 
+}
+.header-container:before {
+    left: 0;
+}
+
+.header-container:after {
+    right: 0;
+}
+@-webkit-keyframes fade {       
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
