@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Fashion</title>
+    <style>
+      
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #e91e63;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: 70%;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+
+        .product p {
+            color: #888;
+        }
+
+        .product button {
+            background-color: #e91e63;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product button:hover {
+            background-color: #d81b60;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Women's Fashion</h1>
+        <p>Discover the latest trends in women's fashion</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Featured Products</h2>
+
+        <!-- Product Grid -->
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product">
+                <a href="/fashionmodule/womenfashdesc1.html"><img src="/img/womens-fash-img-Fashion/womens-product1.jpg" alt="Women's Dress"></a>
+                <h3>Elegant Women's Dress</h3>
+                <p>Rs.190</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <a href="/fashionmodule/womenfashdesc2.html"><img src="/img/womens-fash-img-Fashion/womens-product2.jpg" alt="Women's Handbag"></a>
+                <h3>Stylish Handbag</h3>
+                <p>Rs.130</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <a href="/fashionmodule/womenfashdesc3.html"><img src="/img/womens-fash-img-Fashion/womens-product3.jpg" alt="Women's Heels"></a>
+                <h3>High Heels</h3>
+                <p>Rs.130</p>
+                <button>Add to Cart</button>
+            </div>
+          
+        </div>
+    </div>
+
+</body>
+</html>

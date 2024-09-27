@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haircare Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+       
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+       
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: 70%;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+
+        .product p {
+            color: #888;
+        }
+
+        .product button {
+            background-color: #000000;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product button:hover {
+            background-color: #28a428;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Haircare Products</h1>
+        <p>Discover the best products for healthy, shiny hair</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Top Haircare Products</h2>
+
+        <!-- Product Grid -->
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product">
+                <a href = "haircaredesc1.html"><img src="/img/haircare-img-Beauty/shampoo.jpg" alt="Moisturizing Shampoo"></a>
+                <h3>Moisturizing Shampoo</h3>
+                <p>Rs.200</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <a href = "haircaredesc2.html"><img src="/img/haircare-img-Beauty/conditioner.jpg" alt="Deep Conditioner"></a>
+                <h3>Deep Conditioner</h3>
+                <p>Rs.100</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <a href = "haircaredesc3.html"><img src="/img/haircare-img-Beauty/serum.jpg" alt="Hair Growth Serum"></a>
+                <h3>Hair Growth Serum</h3>
+                <p>Rs.120</p>
+                <button>Add to Cart</button>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
